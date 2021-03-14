@@ -1,13 +1,13 @@
 %hook UIApplication
 -(void)_setForcedUserInterfaceLayoutDirection:(long long)arg1 {
-    %orig(2);
+    %orig(0);
 }
 -(long long)pureUserInterfaceLayoutDirection {
     %orig;
-    return 2;
+    return 0;
 }
 -(long long)userInterfaceLayoutDirection {
     %orig;
-    return 2;
+    return 0;
 }
 %end
