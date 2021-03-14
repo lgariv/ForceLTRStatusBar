@@ -1,0 +1,9 @@
+Package: com.miwix.forceltrstatusbar
+Name: ForceLTRStatusBar
+Version: 1.0.0
+Architecture: iphoneos-arm
+Description: Forces the status bar to always be Left to Right.
+Maintainer: Lavie Gariv
+Author: Lavie Gariv
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
